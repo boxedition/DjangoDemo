@@ -10,3 +10,6 @@ class Post (models.Model):
     # Author -> on_delete will make sure that in the case of a USER gets DELETED,
     # the posts associated with the USER WILL also be DELETED
     author = models.ForeignKey(User, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.title
