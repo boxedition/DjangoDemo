@@ -129,3 +129,5 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 #Redirect to home (blog.home)
 #Default route by Django -> /account/profile/
 LOGIN_REDIRECT_URL = 'blog.home'
+
+LOGIN_URL = 'login'
