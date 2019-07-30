@@ -2,3 +2,4 @@
 .idea
 *.log
 *.sqlite3
+*.png
